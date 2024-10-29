@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(70deg, #4a90e2, #d880ff, #f78da7);
+    background-size: 100% 100%; 
+}
+
+#corp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+h1 {
+    font-size: 45px;
+    font-family: Arial;
+    color: white;
+}
+
+#add {
+    width: 300px;
+    height: 20px;
+    border: none; 
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchbarre {
+    display: flex;
+}
+
+button {
+    width: 80px; 
+    height: 40px;
+    border: none; 
+    background-color: #4a90e2; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+}
+
+button:hover {
+    background-color: #f78da7;
+}
+
+option {
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.opt {
+    display: flex;
+}
+
+.opt button {
+    height: 34px;
+}
+
+.opt option {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    opacity: 0.6;
+}
